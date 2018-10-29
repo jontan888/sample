@@ -16,11 +16,13 @@ public class Staff {
   private static int nextId = 1001;
 
   public Staff() {
+      //calling the parameterized constructor
     this("", "", LocalDate.now(), "", "");
   }
 
   public Staff(String ic, String name, LocalDate birthDate, String designation, String department) {
-    id = nextId++;
+    //id is auto-generated
+      id = nextId++;
     this.ic = ic;
     this.name = name;
     this.birthDate = birthDate;
