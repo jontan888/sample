@@ -18,6 +18,7 @@ public class Staff {
 
   public Staff() {
       //calling the parameterized constructor
+      // default values are blank
     this("", "", LocalDate.now(), "", "");
   }
 
