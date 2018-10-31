@@ -5,6 +5,7 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
+// version 3
 public class Staff {
 
   private int id;
@@ -22,6 +23,7 @@ public class Staff {
 
   public Staff(String ic, String name, LocalDate birthDate, String designation, String department) {
     //id is auto-generated
+    // id is auto-incremented
       id = nextId++;
     this.ic = ic;
     this.name = name;
